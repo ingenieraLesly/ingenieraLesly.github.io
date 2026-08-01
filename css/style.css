@@ -119,3 +119,79 @@ a {
     text-decoration: none;
 
 }
+
+/* ==========================================================
+   LAYOUT
+========================================================== */
+
+.container {
+
+    width: min(100% - 2rem, var(--container-width));
+    margin-inline: auto;
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.header {
+
+    position: sticky;
+    top: 0;
+
+    background: rgb(255 255 255 / 85%);
+    backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid var(--color-border);
+
+    z-index: 1000;
+
+}
+
+/* ==========================================================
+   NAVBAR
+========================================================== */
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 5rem;
+
+}
+
+.logo {
+
+    font-size: 1.25rem;
+    font-weight: var(--fw-bold);
+
+    color: var(--color-primary);
+
+    letter-spacing: .08em;
+
+}
+
+.nav-links {
+
+    display: flex;
+    gap: var(--space-4);
+
+}
+
+.nav-links a {
+
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+
+    transition: color .25s ease;
+
+}
+
+.nav-links a:hover {
+
+    color: var(--color-accent);
+
+}
