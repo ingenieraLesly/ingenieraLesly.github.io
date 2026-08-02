@@ -374,3 +374,28 @@ a {
     z-index:-2;
 
 }
+
+
+.hero {
+
+    position: relative;
+
+}
+
+.hero-art {
+
+    position: absolute;
+
+    right: -6rem;
+
+    bottom: -3rem;
+
+    width: min(48vw,700px);
+
+    opacity: .9;
+
+    pointer-events: none;
+
+    user-select: none;
+
+}
