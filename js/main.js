@@ -15,7 +15,15 @@ function createPath(y, color, opacity) {
 
         const offset = random(-35, 35);
 
-        d += ` L ${x} ${y + offset}`;
+        const cp1x = x - 45;
+
+        const cp1y = y + random(-40, 40);
+        
+        const cp2x = x;
+        
+        const cp2y = y + offset;
+        
+        d += ` C ${cp1x} ${cp1y} ${cp2x} ${cp2y} ${x} ${y + offset}`;
 
     }
 
