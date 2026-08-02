@@ -345,3 +345,32 @@ a {
     transparent 45%);
 
 }
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+    linear-gradient(
+
+        rgb(4 31 96 / 4%) 1px,
+
+        transparent 1px),
+
+    linear-gradient(
+
+        90deg,
+
+        rgb(4 31 96 / 4%) 1px,
+
+        transparent 1px);
+
+    background-size:40px 40px;
+
+    z-index:-2;
+
+}
