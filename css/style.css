@@ -692,3 +692,75 @@ section {
     color: var(--color-text-light);
 
 }
+
+/* ==========================================================
+   CONTACT
+========================================================== */
+
+.contact{
+
+    text-align:center;
+
+}
+
+.contact-card{
+
+    max-width:760px;
+
+    margin-inline:auto;
+
+    padding:var(--space-6);
+
+    border-radius:var(--radius-lg);
+
+    border:1px solid var(--color-border);
+
+    background:var(--color-surface);
+
+}
+
+.contact-card h2{
+
+    color:var(--color-primary);
+
+    margin-bottom:var(--space-3);
+
+}
+
+.contact-card p{
+
+    color:var(--color-text-light);
+
+    margin-bottom:var(--space-5);
+
+}
+
+.contact-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:var(--space-2);
+
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.footer{
+
+    padding:var(--space-5) 0;
+
+    text-align:center;
+
+    color:var(--color-text-light);
+
+    font-size:.95rem;
+
+    border-top:1px solid var(--color-border);
+
+}
