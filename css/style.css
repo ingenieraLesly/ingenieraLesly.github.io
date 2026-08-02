@@ -320,15 +320,85 @@ a {
 
 }
 
-.hero {
+/* ==========================================================
+   HERO LAYERS
+========================================================== */
 
-    position: relative;
+.hero{
 
-    overflow: hidden;
+    position:relative;
+
+    overflow:hidden;
+
+    isolation:isolate;
 
 }
 
-.hero-background {
+.hero-grid{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+    linear-gradient(
+        rgb(4 31 96 / 4%) 1px,
+        transparent 1px),
+
+    linear-gradient(
+        90deg,
+        rgb(4 31 96 / 4%) 1px,
+        transparent 1px);
+
+    background-size:40px 40px;
+
+    z-index:0;
+
+}
+
+.hero-gradient{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(
+        circle at top right,
+        rgb(0 168 168 / 16%) 0%,
+        transparent 45%);
+
+    z-index:1;
+
+}
+
+.hero-topography{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    z-index:2;
+
+    pointer-events:none;
+
+}
+
+.hero .container{
+
+    position:relative;
+
+    z-index:3;
+
+}
+
+/* .hero-background {
 
     position: absolute;
 
@@ -344,8 +414,9 @@ a {
 
     transparent 45%);
 
-}
-.hero::before{
+} */
+
+/* .hero::before{
 
     content:"";
 
@@ -373,16 +444,10 @@ a {
 
     z-index:-2;
 
-}
+} */
 
 
-.hero {
-
-    position: relative;
-
-}
-
-.hero-art {
+/* .hero-art {
 
     position: absolute;
 
@@ -398,7 +463,7 @@ a {
 
     user-select: none;
 
-}
+} */
 
 /* ==========================================================
    SECTIONS
