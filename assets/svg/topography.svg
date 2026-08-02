@@ -1,0 +1,39 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 900 500"
+    fill="none">
+
+<path
+d="M20 260
+C120 180 220 180 320 260
+S520 340 620 260
+S820 180 900 260"
+
+stroke="#041F60"
+stroke-width="2"
+stroke-linecap="round"
+opacity=".12"/>
+
+<path
+d="M20 300
+C120 220 220 220 320 300
+S520 380 620 300
+S820 220 900 300"
+
+stroke="#00A8A8"
+stroke-width="2"
+stroke-linecap="round"
+opacity=".10"/>
+
+<path
+d="M20 220
+C120 140 220 140 320 220
+S520 300 620 220
+S820 140 900 220"
+
+stroke="#041F60"
+stroke-width="2"
+stroke-linecap="round"
+opacity=".08"/>
+
+</svg>
