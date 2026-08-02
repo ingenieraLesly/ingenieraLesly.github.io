@@ -319,3 +319,29 @@ a {
     color: var(--color-accent);
 
 }
+
+.hero {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.hero-background {
+
+    position: absolute;
+
+    inset: 0;
+
+    z-index: -1;
+
+    background:
+
+    radial-gradient(circle at top right,
+
+    rgb(0 168 168 / 10%) 0%,
+
+    transparent 45%);
+
+}
