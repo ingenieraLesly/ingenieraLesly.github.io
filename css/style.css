@@ -431,3 +431,68 @@ section {
     font-size: 1.15rem;
 
 }
+
+/* ==========================================================
+   TECH STACK
+========================================================== */
+
+.stack-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: var(--space-3);
+
+}
+
+.stack-card {
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+
+    border-radius: var(--radius-lg);
+
+    padding: var(--space-4);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+
+}
+
+.stack-card:hover {
+
+    transform: translateY(-4px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+.stack-card h3 {
+
+    color: var(--color-primary);
+
+    margin-bottom: var(--space-2);
+
+    font-size: 1.15rem;
+
+}
+
+.stack-card ul {
+
+    display: grid;
+
+    gap: .65rem;
+
+}
+
+.stack-card li {
+
+    color: var(--color-text-light);
+
+}
