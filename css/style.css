@@ -399,3 +399,65 @@ a {
     user-select: none;
 
 }
+
+/* ==========================================================
+   SECTIONS
+========================================================== */
+
+section {
+
+    padding-block: var(--space-7);
+
+}
+
+.section-header {
+
+    margin-bottom: var(--space-5);
+
+}
+
+.section-tag {
+
+    display: inline-block;
+
+    margin-bottom: var(--space-2);
+
+    color: var(--color-accent);
+
+    font-weight: var(--fw-semibold);
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+
+    font-size: var(--fs-xs);
+
+}
+
+.section-header h2 {
+
+    max-width: 700px;
+
+    font-size: clamp(2rem,4vw,3rem);
+
+    color: var(--color-primary);
+
+}
+
+.about-content {
+
+    max-width: 760px;
+
+    display: grid;
+
+    gap: var(--space-3);
+
+}
+
+.about-content p {
+
+    color: var(--color-text-light);
+
+    font-size: 1.15rem;
+
+}
